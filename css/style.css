@@ -108,20 +108,17 @@ body {
 
 .cards-holder {
     display: flex;
-    flex-wrap:wrap;
-    /* justify-content: center; */
-    align-items: flex-start;
+    justify-content: center;
 }
 
 .card {
-    width: 241px;
+    width: 350px;
     height: 118px;
     background: #FFFFFF;
     box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     margin-right: 20px;
     margin-top: -60px;
-    flex:1 1 250px;
 }
 
 .card-image {
